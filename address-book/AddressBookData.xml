@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : AddressBookData.xml
+    Created on : 13 November 2010, 15:47
+    Author     : Abdulsalam
+    Description:
+        Purpose of the document follows.
+--><contactlist nextid="2">
+   <contact id="1">
+	<title>Salamtura</title>
+	<forename>Abdusalam</forename>
+	<surname>Umar</surname>
+	<gender>Male</gender>
+	<address type="Home">
+		<line1>line1</line1>
+		<line2>line2</line2>
+		<city>city</city>
+		<postcode>postcode</postcode>
+		<country>country</country>
+	</address>
+	<phone>
+		<landline>my_landline</landline>
+		<mobile>my_mobile</mobile>
+	</phone>
+	<address type="Corresponding">
+		<line1>line1</line1>
+		<line2>line2</line2>
+		<city>city</city>
+		<postcode>postcode</postcode>
+		<country>country</country>
+	</address>
+	<email>my_email</email>
+	<photo>C:\Users\Abdulsalam\Desktop\IMG00121-20101006-2244.jpg</photo>
+	<webpage>my_personal_webpage</webpage>
+   </contact>
+   <contact id="2">
+	<title>my_title</title>
+	<forename>my_forename</forename>
+	<surname>my_surname</surname>
+	<gender>Male/Female</gender>
+	<address type="Home">
+		<line1>address_line1</line1>
+		<line2>address_line2</line2>
+		<city>address_city</city>
+		<postcode>postcode</postcode>
+		<country>country</country>
+	</address>
+	<phone>
+		<landline>my_landline</landline>
+		<mobile>my_mobile</mobile>
+	</phone>
+	<address type="Corresponding">
+		<line1>address_line1</line1>
+		<line2>address_line2</line2>
+		<city>address_city</city>
+		<postcode>postcode</postcode>
+		<country>country</country>
+	</address>
+	<email>my_email</email>
+	<photo>my_photo</photo>
+	<webpage>my_personal_webpage</webpage>
+   </contact>
+<contact id="3"><title>Mr</title><forename>Khalifa</forename><surname>Yakubu</surname><gender>male</gender><address type="Home"><line1>71</line1><line2>southside</line2><city>bham</city><postcode>b5 4tf</postcode><country>England</country></address><phone><landline>08037415953</landline><mobile>08036749645</mobile></phone><address type="Corresponding"><line1>2</line1><line2>lamarene</line2><city>abuja</city><postcode>80001</postcode><country>Nigeria</country></address><email>me@email.com</email><photo>C:\Users\Abdulsalam\Desktop\Bintana.png</photo><webpage>salamtura.com</webpage></contact><contact id="4"><title>Dr</title><forename>Hassan</forename><surname>Umar</surname><gender>male</gender><address type="Home"><line1>latitude</line1><line2>123</line2><city>bham</city><postcode>b54tf</postcode><country>england</country></address><phone><landline>07158565885</landline><mobile>07845215545</mobile></phone><address type="Corresponding"><line1>1</line1><line2>2</line2><city>3</city><postcode>4</postcode><country>5</country></address><email>umar@mail.com</email><photo>C:\Users\Abdulsalam\Desktop\Bintana.png</photo><webpage>www.umar.com</webpage></contact></contactlist>

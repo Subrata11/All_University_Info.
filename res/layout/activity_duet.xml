@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Dhaka University of Engineering and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duetlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Dhaka University of Engineering and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়, গাজীপুর বাংলাদেশের একটি প্রকৌশল শিক্ষা প্রতিষ্ঠান্ । ১৯৮০ সালে ঢাকা বিশ্ববিদ্যালয়ের প্রকৌশল অনুষদ হিসেবে এই বিশ্ববিদ্যালয়ের যাত্রা শুরু হয়। দেশে ক্রমবর্ধমান আধুনিক প্রকৌশল বিদ্যার প্রয়োজনিয়তা বিবেচনা করে এই বিশ্ববিদ্যালয় পুরকৌশল, যন্ত্রকৌশল, তড়িৎ কৌশলে চার বছর মেয়াদী ব্যাচেলর ডিগ্রী প্রদান করে আসছে।
+        "/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Dhaka University of Engineering and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duet1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duet2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duet3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duet4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/duet5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.duet.ac.bd.
+        http://en.wikipedia.org/wiki/ঢাকা_প্রকৌশল_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

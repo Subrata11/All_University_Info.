@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="KUET University of Engineering and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuetlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About KUET University of Engineering and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (কুয়েট) বাংলাদেশের একটি অন্যতম সরকারী প্রকৌশল বিশ্ববিদ্যালয়। এটি বাংলাদেশের দক্ষিণাঞ্চলের খুলনা বিভাগের খুলনা জেলায় অবস্থিত। পূর্বে এর নাম ছিল বাংলাদেশ ইন্সটিটিউট অফ টেকনোলজি, খুলনা ও তারও আগে, খুলনা প্রকৌশল মহাবিদ্যালয়। এটি বাংলাদেশের শ্রেষ্ঠ বিশ্ববিদ্যালয়গুলোর অন্যতম। এখানে প্রায় তিন হাজার তিনশো ছাত্রছাত্রী স্নাতক ও স্নাতকোত্তর প্রকৌশল ও বিজ্ঞান নিয়ে পড়াশোনা করছে। এখানকার শিক্ষক সংখ্যা ২০০-এরও অধিক। বিশ্ববিদ্যালয়টির অঙ্গন সম্প্রসারণে নতুন কিছু ভবন তৈরি করা হয়েছে যেমন- একাডেমিক ভবন, অডিটোরিয়াম কমপ্লেক্স, ছাত্রাবাস, গ্রন্থাগার, শিক্ষক ডরমিটরি ভবন ইত্যাদি এবং আরও কিছু ভবনের নির্মাণ কাজ চলছে। বিশ্ববিদ্যালয়ের ক্যাম্পাস খুলনা শহর থেকে ১৪ কি.মি. উত্তরে, যশোর-খুলনা মহাসড়কের পাশে ফুলবাড়ীগেটে অবস্থিত।দেশের স্নাতক পর্যায়ের এবং পেশাদারী শিক্ষা, গবেষণা এবং বৃত্তির কেন্দ্রবিন্দুতে পরিণত করা, নতুন জ্ঞান ও উদ্ভাবণের মাধ্যমে যা প্রকৃতপক্ষে শিক্ষা ও মানুষের জীবনযাত্রার মানের উন্নতিসাধন করে । প্রযুক্তি ও বিজ্ঞানে শ্রেষ্ঠতা লাভ করা, স্নাতকরা যেন পরিবর্তনশীল উপায়ে বুঝতে ও অভিজ্ঞতা অর্জণ করতে পারে। উপরন্তু, কুয়েট এমন এক শ্রেষ্ঠ বিশ্ববিদ্যালয় হবে যা জনগনকে সবরকম প্রয়োজনীয় সেবা প্রদান করবে
+"/>
+            <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of KUET University of Engineering and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuet1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuet2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuet4" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuet5" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kuet6" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.kuet.ac.bd.
+        http://en.wikipedia.org/wiki/খুলনা_প্রকৌশল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

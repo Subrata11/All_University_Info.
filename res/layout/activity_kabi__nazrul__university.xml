@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Jatiya Kabi Kazi Nazrul Islam University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jjjlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Jatiya Kabi Kazi Nazrul Islam University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয় বাংলাদেশের একটি সরকারি বিশ্ববিদ্যালয়। এটি ময়মনসিংহ শহর হতে প্রায় ২২ কিলোমিটার দূরে, ত্রিশাল উপজেলা সদর হতে ৩ কিলোমিটার দূরে নামা পাড়া বটতলায় অবস্থিত। এই বিশ্ববিদ্যালয়টি ২০০৬ সালে প্রতিষ্ঠিত হয়েছে। ঢাকা হতে এর দূরত্ব ১০০ কিলোমিটার। কবি কাজী নজরুল ইসলাম বাংলাদেশের জাতীয় কবি।এটি ময়মনসিংহ শহর হতে প্রায় ২২ কিলোমিটার দূরে, ত্রিশাল উপজেলা সদর হতে ৩ কিলোমিটার দূরে নামা পাড়া বটতলায় অবস্থিত। এই বিশ্ববিদ্যালয়টি ২০০৬ সালে প্রতিষ্ঠিত হয়েছে। ঢাকা হতে এর দূরত্ব ১০০ কিলোমিটার। কবি কাজী নজরুল ইসলামের স্মৃতি বিজরিত বটতলা ঘেঁষে এ বিশ্ববিদ্যালয়টি প্রতিষ্ঠিত২০০৪ সালের ফেব্রুয়ারীতে এই বিশ্ববিদ্যালয় প্রতিষ্ঠার জন্যে একনেকের বৈঠকে একটি প্রকল্প অনুমোদিত হয়। তৎকালীন প্রধানমন্ত্রী বেগম খালেদা জিয়া ২০০৫ সালের ১লা মার্চ এর ভিত্তি প্রস্তর স্থাপন করেন। ২০০৭ এর ২৫ মার্চ জাতীয় কবি কাজী নজরুল ইসলামের জন্মদিনে বেগম খালেদা জিয়া দুটি অনুষদের কার্যক্রম উদ্বোধন করেন এবং ৩ জুন ২০০৭ এ প্রথম ব্যচের ক্লাস শুরু হয়। অধ্যাপক ড. মোহাম্মদ শামসুর রহমান ছিলেন প্রথম উপাচার্য। প্রথম ব্যাচে কলা অনুষদের অধীনে বাংলা ভাষা ও সাহিত্য বিভাগ ও ইংরেজি ভাষা ও সাহিত্য বিভাগ এবং বিজ্ঞান ও প্রকৌশল অনুষদের অধীনে কম্পিউটার বিজ্ঞান ও প্রকৌশল বিভাগে ১৮৫ জন ছাত্র ভর্তি হয়"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Jatiya Kabi Kazi Nazrul Islam University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jjja" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jjjb" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jjjc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jjjd" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.jkkniu.edu.bd/.
+        http://en.wikipedia.org/wiki/জাতীয়_কবি_কাজী_নজরুল_ইসলাম_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

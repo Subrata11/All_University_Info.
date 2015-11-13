@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangladesh Agricultural University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangladesh Agricultural University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বাংলাদেশ কৃষি বিশ্ববিদ্যালয় বাংলাদেশের বা বাকৃবি একটি সরকারী বিশ্ববিদ্যালয়। এটি ময়মনসিংহ শহরে অবস্থিত। দেশের কৃষিশিক্ষা ও গবেষণার সর্বোচ্চ বিদ্যাপীঠ বাংলাদেশ কৃষি বিশ্ববিদ্যালয়৷ কৃষিবিজ্ঞানের সকল শাখা স্থলজ ও জলজ সবকিছুই এর আওতাভূক্ত৷ মানসম্পন্ন উচ্চতর কৃষিশিক্ষা ব্যবস্থার নিশ্চয়তা বিধানের মাধ্যমে দেশে কৃষি উন্নয়নের গুরুদায়িত্ব বহনে সক্ষম তাত্ত্বিক ও ব্যবহারিক জ্ঞানসম্পন্ন দক্ষ কৃষিবিদ, কৃষিবিজ্ঞানী,প্রযুক্তিবিদ ও কৃষি প্রকৌশলী তৈরি করাই এ বিশ্ববিদ্যালয়ের অন্যতম প্রধান লক্ষ্য৷/ময়মনসিংহ শহর থেকে ৪ কিলোমিটার দক্ষিণে পুরাতন ব্রহ্মপুত্র নদের পশ্চিম প্রান্তে প্রায় ১২০০ একর জায়গা নিয়ে গড়ে উঠেছে বাংলাদেশ কৃষি বিশ্ববিদ্যালয়।রাজধানী ঢাকা থেকে ১২০ কিলোমিটার উত্তরে এ ক্যাম্পাসের অবস্থান        "/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangladesh Agricultural University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bau5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.bau.edu.bd.
+        http://en.wikipedia.org/wiki/বাংলাদেশ_কৃষি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

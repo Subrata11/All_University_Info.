@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangabandhu Sheikh Mujibur Rahman agricultural University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bangologo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangabandhu Sheikh Mujibur Rahman agricultural University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বঙ্গবন্ধু শেখ মুজিবুর রহমান কৃষি বিশ্ববিদ্যালয় গাজীপুরে অবস্থিত একটি কৃষি বিশ্ববিদ্যালয়। ১৯৯৮ এ বিশ্ববিদ্যালয়টি প্রতিষ্ঠিত হয়।
+    কৃষি (Agriculture)
+    ভেটেরিনারি এন্ড এনিম্যাল সায়েন্স (DVM)
+    মৎস্য-বিজ্ঞান অনুষদ (Fisheries)
+    কৃষি অর্থনীতি ও ব্যবসায় শিক্ষা (Agricultural Economics and Business Studies)
+    কৃষি প্রকৌশল ও কারিগরি (Agricultural Engineering and Technology)
+    জৈব প্রযুক্তি এবং জীন প্রকৌশল (Biotechnology and Genetic Engineering)
+        "/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangabandhu Sheikh Mujibur Rahman Agricultural University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bango1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bango2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bango3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bango4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bango5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.BSMRAU.ac.bd.
+        http://en.wikipedia.org/wiki/বঙ্গবন্ধু_শেখ_মুজিবুর_রহমান_কৃষি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

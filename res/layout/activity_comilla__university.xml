@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Comilla University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cmlogoo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About CoU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বাংলাদেশের কুমিল্লায় ২০০৬ সালে প্রতিষ্ঠিত এই বিশ্ববিদ্যালয়টি বিশ্ববিদ্যালয় মঞ্জুরী কমিশন কর্তৃক অনুমোদিত।কুমিল্লা বিশ্ববিদ্যালয় বাংলাদেশের কুমিল্লায় অবস্থিত একটি সরকারি বিশ্ববিদ্যালয়। এটি ময়নামতির লালমাই বিহার [১] নামক স্থানে ৫০ একর (২০০,০০০ বর্গমিটার) জায়গা জুড়ে নির্মিত।প্রফেসর ডঃ গোলাম মাওলা এই বিশ্ববিদ্যালয়টির প্রতিষ্ঠাতা উপাচার্য। ২০০৮ খ্রিস্টাব্দের ৩০ জুলাই পর্যন্ত তিনি পদত্যাগ করার আগ পর্যন্ত এই বিশ্ববিদ্যালয়টির দায়িত্ব প্রাপ্ত ছিলেন। গণিত বিভাগের অধ্যাপক ডঃ জুলফিকার আলী পরবর্তীতে ভারপ্রাপ্ত উপাচার্যের ভূমিকা পালন করেন। পররর্তী উপাচার্য জাহেদুল করিম ক্যাম্পাসে ভয়াবহ সংঘর্ষের পর ২০০৯ খ্রিস্টাব্দে ৭ অক্টোবর পদত্যাগের ঘোষণা দেন।[২] ২০০৯ খ্রিস্টাব্দে ২২ নভেম্বর, জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের পদার্থ বিজ্ঞানের অধ্যাপক ডঃ আমির হোসাইন খান বিশ্ববিদ্যালয়টির উপাচার্য হিসেবে যোগ দেন।[৩] বাংলাদেশ সরকারের সন্মানিত রাষ্ট্রপতি মোঃ আবদুল হামিদ বিশ্ববিদ্যালয়টির আচার্য।"/>
+        
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of CoU" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cma" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cmb" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cmc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cmd" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.cou.ac.bd.
+        http://en.wikipedia.org/wiki/কুমিল্লা_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Rajshahi University of Engineering and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruetlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Rajshahi University of Engineering and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ইংরেজি: Rajshahi University of Engineering and Technology) বা সংক্ষেপে রুয়েট (RUET) বাংলাদেশের একটি শীর্ষস্থানীয় প্রকৌশল বিশ্ববিদ্যালয়। এটি বাংলাদেশের দ্বিতীয় প্রাচীনতম এবং উত্তরাঞ্চলের একমাত্র প্রকৌশল বিশ্ববিদ্যালয়। ১৯৬৪ সালের ডিসেম্বরে ১২২ জন ছাত্র নিয়ে রাজশাহী প্রকৌশল মহাবিদ্যালয় নামে যাত্রা শুরু করে এই প্রতিষ্ঠানটি। ১৯৮৬ সালে তা রুপান্তরিত হয় বাংলাদেশ ইনিষ্টিটিউট অব টেকনোলজি (বিআইটি), রাজশাহীতে। দেশে ও বিদেশে প্রকৌশল শিক্ষার চাহিদা বৃদ্ধি এবং প্রকৌশল বিদ্যায় উচ্চতর ডিগ্রী ও গবেষণার সুযোগ তৈরি করতে ২০০৩ সালে রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় বা রুয়েট নামে একটি পূর্নাঙ্গ বিশ্ববিদ্যালয়ে পরিনত হয়। বর্তমানে এই বিশ্ববিদ্যালয়ে প্রকৌশল, প্রযুক্তি ও নগর পরিকল্পনা বিষয়ে স্নাতক এবং স্নাতকোত্তর পর্যায়ে প্রায় আড়াই হাজার শিক্ষার্থী অধ্যয়ন করে। মোট শিক্ষকের সংখ্যা দুই শতাধিক।রুয়েট ক্যাম্পাস রাজশাহী শহর থেকে ৩ কিমি পূর্বে বহমান পদ্মার তীর ঘেষে অবস্থিত। তার পূর্বেই রয়েছে বাংলাদেশের ঐতিহ্যবাহী বিদ্যাপিঠ রাজশাহী বিশ্ববিদ্যালয়ের চিরসবুজ ক্যাম্পাস। সারিসারি দেবদারু শোভিত রুয়েট ক্যাম্পাসের আয়তন ১৫২একর। ছোট এই প্রাঙ্গনে ডিপার্টমেন্ট ভবন, ল্যাবেরেটরি, ওয়ার্কশপ, লাইব্রেরী, জিমনেশিয়াম, কেন্দ্রীয় সাধারণ কক্ষ, ক্যাফেটেরিয়া, শিক্ষার্থীদের আবাসিক হল, শিক্ষক ও কর্মচারীদের আবাসিক এলাকা অবস্থিত। রুয়েটগেট থেকে পাঁচ কিমি পশ্চিমে ৫০ মেগাওয়াট বিদ্যুৎ উৎপাদন ক্ষমতাসম্পন্ন কাঁটাখালী নর্দার্ন বিদ্যুৎকেন্দ্র অবস্থিত।রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় বাংলাদেশের অন্যতম প্রকৌশল বিশ্ববিদ্যালয়। এটি ১৯৬৪ সালে রাজশাহী বিশ্ববিদ্যালয়ের অধীনে প্রকৌশল অনুষদ হিসেবে যাত্রা শুরু করে। তখন এখানে যন্ত্রকৌশল, পুরকৌশল এবং তড়িৎকৌশল বিভাগের অধীনে সন্মান ডিগ্রী প্রদান করা হত। কিন্তু প্রশাসনিক জটিলতার কারনে এর শিক্ষা কার্যক্রম ব্যহত হচ্ছিল। কারণ এর প্রশাসন নিয়ন্ত্রণ করত শিক্ষা মন্ত্রনালয়; একাডেমিক ক্যারিকুলাম ঠিক করত রাজশাহী বিশ্ববিদ্যালয় আর অবকাঠামোগত উন্নয়ন নিয়ন্ত্রণ করত পাবলিক ওয়ার্ক ডিপার্টমেন্ট। এ সমস্যা সমাধানের জন্য ১৯৭৩ সালে কয়েকটি কমিশন ও কমিটি গঠন করা হয়। এই কমিশন ও কমিটির সুপারিশের ভিত্তিতে দেশের চারটি প্রকৌশল মহাবিদ্যালয় কে স্বায়ত্তশাসন দেওয়ার ঐতিহাসিক সিদ্ধান্ত গৃহীত হয়। এর জন্য বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়ের তৎকালীন উপাচার্য ডঃ ওয়াহিদ উদ্দীনের নেতৃত্বে ১৫ সদস্যের একটি শক্তিশালী কমিটি গঠন করা হয়।এই কমিটি দেশের চারটি প্রকৌশল মহাবিদ্যালয় কে একত্রে নিয়ে ১৯৮৬ সালের জুলাই মাসে বাংলাদেশ ইনিস্টিটিউট অব টেকনোলজি (বিআইটি) গঠন করে। কিন্তু সীমিত স্বায়ত্তশাসন এবং বিআইটি অধ্যাদেশের কিছু সাংবিধানিক সীমাবদ্ধতার কারনে এই প্রতিষ্ঠানটির উন্নয়ন বাধাগ্রস্ত হচ্ছিল। তখনই বিআইটি গুলিকে পূর্ণাঙ্গ বিশ্ববিদ্যালয়ে রূপন্তরের প্রয়োজনীয়তা দেখা দেয়। এর ফলশ্রুতিতে জাতীয় সংসদে বিশ্ববিদ্যালয় বিলটি পাশের মাধ্যমে ২০০৩ সালের ১লা সেপ্টেম্বর এটিকে রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (রুয়েট) এ রূপান্তর করা হয়।
+        "/>
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Rajshahi University of Engineering and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruet1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruet2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruet3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruet4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ruet5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.ruet.ac.bd.
+        http://en.wikipedia.org/wiki/রাজশাহী _প্রকৌশল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

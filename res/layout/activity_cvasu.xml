@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Chittagong Veterinary and Animal Sciences University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csalogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Chittagong Veterinary and Animal Sciences University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="চট্টগ্রাম ভেটেরিনারি ও এনিম্যাল সাইন্সেস বিশ্ববিদ্যালয় (ইংরেজি: Chittagong Veterinary and Animal Sciences University) বাংলাদেশের একটি বিশেষায়িত সরকারী বিশ্ববিদ্যালয়। ২০০৬ সালের ২রা ফেব্রুয়ারী, এটিকে চট্টগ্রাম সরকারি ভেটেরিনারি কলেজ থেকে বিশ্ববিদ্যালয়ে রুপান্তরিত করা হয়। এটি দেশের একমাত্র ভেটেরিনারি বিশ্ববিদ্যালয়।গ্রামের খুলশী এলাকায় দেশের একমাত্র ভেটেরিনারি বিশ্ববিদ্যালয়টি অবস্থিত।চট্টগ্রাম সরকারি ভেটেরিনারি কলেজকে ২ ফেব্রুয়ারী ২০০৬ সালে চট্টগ্রাম ভেটেরিনারি ও এনিম্যাল সাইন্সেস বিশ্ববিদ্যালয় এ উন্নীত করা হয়। প্রায় ৩০০ জন ছাত্র নিয়ে একটি মাত্র অনুষদ নিয়ে তাত্ত্বিক, ব্যবহারিক কাজ-ভিত্তিক শিক্ষা এবং বৈজ্ঞানিক ও প্রযুক্তিগত শিক্ষা প্রদানের লক্ষ নিয়ে বিশ্ববিদ্যালয়টি স্থাপিত হয়। চট্টগ্রাম বিশ্ববিদ্যালয়ের অধীনে ১৯৯৫ সালে চট্টগ্রাম সরকারি ভেটেরিনারি কলেজ হিসেবে প্রতিষ্ঠিত হয়
+    ভেটেরিনারি এন্ড এনিম্যাল সায়েন্স (DVM)
+    মৎস্য-বিজ্ঞান অনুষদ (Fisheries)
+    কৃষি অর্থনীতি ও ব্যবসায় শিক্ষা (Agricultural Economics and Business Studies)
+    কৃষি প্রকৌশল ও কারিগরি (Agricultural Engineering and Technology)
+    জৈব প্রযুক্তি এবং জীন প্রকৌশল (Biotechnology and Genetic Engineering)
+        "/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Chittagong Veterinary and Animal Sciences University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csa1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csa2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csa3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csa4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/csa5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.cvasu.ac.bd.
+        http://en.wikipedia.org/wiki/চট্টগ্রাম_ভেটেরিনারি_ও_এনিম্যাল_সাইন্সেস_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

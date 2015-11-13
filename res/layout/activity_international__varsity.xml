@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="আন্তর্জতিক  বিশ্ববিদ্যালয়সমূহের তালিকা" />
+
+    
+
+    <Button
+        android:id="@+id/iutoic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="1.ইসলামিক ইউনিভার্সিটি অফ টেকনোলজি" />
+
+    <Button
+        android:id="@+id/auw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="2.এশিয়ান ইউনিভার্সিটি ফর ওমেন" />
+ 
+
+   
+     </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="306dp"
+        android:src="@drawable/gg" />
+
+</LinearLayout>

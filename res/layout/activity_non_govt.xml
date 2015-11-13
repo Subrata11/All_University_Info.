@@ -1,0 +1,388 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="বেসরকারি  বিশ্ববিদ্যালয়সমূহের তালিকা" />
+
+<!--        </LinearLayout> -->
+<!--     </ScrollView> -->
+            
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="1.ইস্ট ডেল্টা বিশ্ববিদ্যালয়" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="2.ইন্টারন্যাশনাল ইসলামিক ইউনিভার্সিটি " />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="3.বেগম গুলচেমনারা ট্রাস্ট ইউনিভার্সিটি " />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="4.প্রিমিয়ার বিশ্ববিদ্যালয়, চট্টগ্রাম" />
+
+     
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="5.সাউদার্ন ইউনিভার্সিটি অব বাংলাদেশ, চট্টগ্রাম" />
+	
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="6.বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়, চট্টগ্রাম" />
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="7.আহসানউল্লাহ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="8.অ্যামেরিকান ইন্টারন্যাশনাল ইউনিভার্সিটি-বাংলাদেশ" />
+    
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="9.এশিয়ান ইউনিভার্সিটি অফ বাংলাদেশ" />
+    
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="10.আসা বিশ্ববিদ্যালয় বাংলাদেশ" />
+    
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="11.অতীশ দীপঙ্কর ইউনিভার্সিটি অফ সায়েন্স অ্যান্ড টেকনোলজি" />
+    
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="12.বাংলাদেশ ইসলামী বিশ্ববিদ্যালয়" />
+      <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="13.আমেরিকা-বাংলাদেশ ইউনিভার্সিটি" />
+      
+      <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="14.বাংলাদেশ ইউনিভার্সিটি" />
+      <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="15.বাংলাদেশ ইউনিভার্সিটি অফ বিজনেস অ্যান্ড টেকনোলজি" />
+      <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="16.ব্র্যাক ইউনিভার্সিটি" />
+      <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="17.Central Women's University" />
+      <Button
+        android:id="@+id/button19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="18.সিটি ইউনিভার্সিটি "/>
+       
+       <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="19.ডেফোডিল ইন্টারন্যাশনাল ইউনিভার্সিটি"/>
+      
+          <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="20.দারুল ইহসান ইউনিভার্সিটি"/>
+         
+           <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="21. ইস্টার্ন ইউনিভার্সিটি"/>
+           
+             <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="22.ঢাকা ইন্টারন্যাশনাল ইউনিভার্সিটি"/>
+               <Button
+        android:id="@+id/button24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="23.ইস্টওয়েস্ট বিশ্ববিদ্যালয়"/>
+      <Button
+        android:id="@+id/button25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="24.গণবিশ্ববিদ্যালয়"/>
+      
+      <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="25.গ্রিন ইউনিভার্সিটি অফ বাংলাদেশ"/>
+                 
+      <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="26.ইবাইস ইউনিভার্সিটি"/>     
+      
+      <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="27.ইন্ডিপেন্ডেন্ট ইউনিভার্সিটি বাংলাদেশ"/>
+      <Button
+        android:id="@+id/button29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="28.ইন্টারন্যাশনাল ইউনিভার্সিটি অফ বিজনেস, কালচার অ্যান্ড টেকনোলজি"/>
+      <Button
+        android:id="@+id/button30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="29.মানারাত ইন্টারন্যাশনাল ইউনিভার্সিটি"/>
+      <Button
+        android:id="@+id/button31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="30.দ্য মিলেনিয়াম ইউনিভার্সিটি"/>
+      
+      <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="31.নর্দার্ন ইউনিভার্সিটি"/>
+      
+      <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="32.দ্য পিপলস ইউনিভার্সিটি অফ বাংলাদেশ"/>
+      <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="33.Presidency University"/>
+      
+      <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="34.প্রাইম ইউনিভার্সিটি"/>
+      
+      <Button
+        android:id="@+id/button36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="35.European University of Bangladesh"/>
+      
+      <Button
+        android:id="@+id/button37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="36.Queens University"/>
+      <Button
+        android:id="@+id/button38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="37.রয়াল বিশ্ববিদ্যালয়"/>
+      
+       <Button
+        android:id="@+id/button39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="38.Shanto-Mariam University of Creative Technology"/>
+        <Button
+        android:id="@+id/button40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="39.সাউথ ইস্ট ইউনিভার্সিটি"/>
+         <Button
+        android:id="@+id/button41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="40.স্ট্যামফোর্ড ইউনিভার্সিটি, বাংলাদেশ"/>
+         
+          <Button
+        android:id="@+id/button42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="41.স্টেট ইউনিভার্সিটি অফ বাংলাদেশ"/>
+           <Button
+        android:id="@+id/button43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="42.ইউনাইটেড ইন্টারন্যাশনাল ইউনিভার্সিটি"/>
+               <Button
+        android:id="@+id/button44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="43.দ্য ইউনিভার্সিটি অব এশিয়া প্যাসিফিক"/>
+           
+            <Button
+        android:id="@+id/button45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="44.ইউনিভার্সিটি অব ডেভলপমেন্ট অল্টারনেটিভ"/>
+                  <Button
+        android:id="@+id/button46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="45.ইউনিভার্সিটি অব ইনফরমেশন টেকনোলজি অ্যান্ড সায়েন্সেস"/>
+      
+                  <Button
+        android:id="@+id/button47"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="46.University of Liberal Arts Bangladesh"/>
+        
+           <Button
+        android:id="@+id/button48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="47.University of Liberal Arts Bangladesh"/>
+                    
+         <Button
+        android:id="@+id/button49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="48.উত্তরা ইউনিভার্সিটি"/>
+         
+         <Button
+        android:id="@+id/button50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="49.Victoria University of Bangladesh"/>
+         
+         <Button
+        android:id="@+id/button51"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="50.ওয়ার্ল্ড ইউনিভার্সিটি অফ বাংলাদেশ"/>
+         <Button
+        android:id="@+id/button52"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="51.পুন্ড্র ইউনিভার্সিটি অফ সায়েন্স অ্যান্ড টেকনোলজি"/>
+         
+         <Button
+        android:id="@+id/button53"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="52.লিডিং ইউনিভার্সিটি"/>
+         <Button
+        android:id="@+id/button54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="53.মেট্রোপলিটন ইউনিভার্সিটি, সিলেট"/>
+          <Button
+        android:id="@+id/button55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="54.সিলেট ইন্টারন্যাশনাল ইউনিভার্সিটি"/>
+      
+  </LinearLayout>
+    </ScrollView>
+</LinearLayout>

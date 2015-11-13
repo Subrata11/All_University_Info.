@@ -1,0 +1,11 @@
+SETUP INFO
+----------
+
+Compile the .java files with the jdom-1.0.jar library.
+
+Please don't forget to rate this and give me a feedback comment on my blog.
+
+ENJOY!
+
+By Abdulsalam Umar
+blog.salamtura.com

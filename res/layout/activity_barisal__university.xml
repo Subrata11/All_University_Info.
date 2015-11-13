@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Barisal University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About BU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বরিশাল বিশ্ববিদ্যালয় বাংলাদেশে অবস্থিত বরিশাল বিভাগের অন্যতম সরকারী বিশ্ববিদ্যালয়, এবং দেশ এর ৩৩ তম সরকারী বিশ্ববিদ্যালয়।[১] বরিশাল বিশ্ববিদ্যালয় ২৫ জানুয়ারী ২০১২ তাদের শিক্ষা কার্যক্রম শুরু করে।"/>
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="১৯৬০ সালে প্রথম , বাংলাদেশ স্বাধীনতার আগে একটি বিশ্ববিদ্যালয়ের চাহিদা তৈরি হয়। ১৯৭৩ সালে একটি শহর সমাবেশ অনুষ্ঠিত হওয়ার সময় তত্কালীন প্রধানমন্ত্রী শেখ মুজিবুর রহমান ঘোষনা করেন, বরিশালে একটি বিশ্ববিদ্যালয় স্থাপন যা আকাঙ্ক্ষিত ছিল তার। রাষ্ট্রপতি জিয়াউর রহমান ২৩, ১৯৭৮ সালে বরিশাল সার্কিট হাউস মধ্যে একটি সমাবেশে একটি বিশ্ববিদ্যালয় প্রতিষ্ঠার আকাঙ্ক্ষা প্রকাশ করেন। তিন দশক পরে বরিশাল মানুষের শক্তিশালী চাহিদা থেকে নভেম্বর ২৯, ২০০৮ ECNEC (Executive Committee of National Economic Council) এই প্রস্তাব পাশ করে, তারপর তত্ত্বাবধায়ক সরকার দ্বারা। ২২ নভেম্বর, ২০১১, প্রধানমন্ত্রী শেখ হাসিনা বিশ্ববিদ্যালয়ের ভবনের নির্মাণ শুরু করেন। বরিশাল জিলা স্কুল অস্থায়ী ক্যাম্পাসে ২৫ জানুয়ারী, ২০১২ সালে বেলা পৌনে ১১টায় জাতীয় পতাকা উত্তোলনের মধ্য দিয়ে শিক্ষা মন্ত্রী নুরুল ইসলাম এই বিশ্ববিদ্যালয়ের শিক্ষাগত কার্যক্রম উদ্বোধন করেন। মুল ক্যাম্পাস ২০১৩ সালে কীর্তনখোলা নদীর পূর্ব তীরে সদর উপজেলার কর্ণকাঠিতে নির্ধারিত হয়। ৯০ কোটি টাকা ব্যয় ৫০ একর জমি, ব্যক্তিগত ১২ একর এবং পাবলিক জমি ৩৮ একর নিয়ে বিশ্ববিদ্যালয় গঠন করা হবে। শিক্ষাবর্ষ ইং ২০১১-২০১২ প্রায় ৪০০ জন ছাত্র-ছাত্রী নিয়ে ৩টি অনুষদের অধীনে ৬টি প্রধান বিষয় নথিভুক্ত[২] করা হয়। বর্তমানে ১৮টি বিভাগে প্রায় ৩,৭০০ জন ছাত্র-ছাত্রী রয়েছে ।
+       "/>
+    
+    
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.barisaluniv.edu.bd.
+        http://en.wikipedia.org/wiki/বরিশাল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

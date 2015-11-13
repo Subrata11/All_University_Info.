@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangabandhu Sheikh Mujibur Rahman Science and Technology University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bslogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangabandhu Sheikh Mujibur Rahman Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় বাংলাদেশের একটি নব্য প্রতিষ্ঠিত বিশ্ববিদ্যালয়। এইটি দেশের ঢাকা বিভাগের গোপালগঞ্জ জেলাতে অবস্থিত। ২০০১ সালে এই বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়।এই বিশ্ববিদ্যালয়ে আমেরিকার কোর্স ক্রেডিট সিস্টেম পদ্ধতি চালু রয়েছে। সেমিস্টার পদ্ধতির এ শিক্ষা ব্যবস্থায় কোর্স যথাসময়ে শেষ হয় বিধায় কোনো সেশনজট থাকে না৷ আটটি সেমিস্টারে শিক্ষাপর্ব শেষ হয়৷ হাতে-কলমে শিক্ষা দানের জন্য এখানে রয়েছে সমৃদ্ধ গবেষণাগার বা ল্যাবরেটরি৷"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangabandhu Sheikh Mujibur Rahman Science and Technology University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bs1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bs2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bs3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bs4" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.bsmrstu.edu.bd.
+        http://en.wikipedia.org/wiki/বঙ্গবন্ধু_শেখ_মুজিবুর_রহমান_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

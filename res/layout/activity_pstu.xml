@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Patuakhali Science and Technology University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pslogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Patuakhali Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় বাংলাদেশের একটি নব্য প্রতিষ্ঠিত বিশ্ববিদ্যালয়। এইটি দেশের বরিশাল বিভাগের পটুয়াখালী জেলাতে অবস্থিত। ২০০২ সালে এই বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়।পটুয়াখালীর প্রবেশপথে পটুয়াখালী-বরিশাল মহাসড়কের লেবুখালীস্থ পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় স্কয়ার থেকে ৫ কিলোমিটার পুবে দুমকি উপজেলা সদরে নয়নাভিরাম প্রাকৃতিক পরিবেশে পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়টি অবস্থিত। সাবেক মন্ত্রী এম কেরামত আলী জেলা সদর থেকে ১৫ কিলোমিটার উত্তরে প্রতিষ্ঠা করেন পটুয়াখালী কৃষি কলেজ। গোল পাতার ছাউনি দিয়ে লম্বা ঘরে শুরু হয় কলেজের কার্যক্রম৷ এ কৃষি কলেজটি ১৯৭৯-৮০ শিক্ষাবর্ষে বাংলাদেশ কৃষি বিশ্ববিদ্যালয়, ময়মনসিংহের অধিভুক্ত হয়ে বেসরকারি কৃষি কলেজ হিসেবে স্নাতক পর্যায়ে কার্যক্রম শুরু করে৷ [২০০০ সালের ৮ জুলাই তৎকালীন প্রধানমন্ত্রী কৃষি কলেজাটিকে বিশ্বববিদ্যালয় হিসেবে উদ্বোধন করেন।[২০০১]] সালের ১২ জুলাই জাতীয় সংসদে পটুয়াখালী কৃষি কলেজ বিলুপ্ত করে ‘পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়’ আইন পাস হয়৷ ২০০২ সালের ২৬ ফেব্রুয়ারি সরকারি প্রজ্ঞাপনের মাধ্যমে ‘পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়’ বাস্তব রূপ লাভ করে৷ এর অবকাঠামো উন্নয়নে ১৯ কোটি টাকার প্রাথমিক বরাদ্দ দেয়া হয়৷।চারটি অনুষদ নিয়ে শুরু হয় এর কার্যক্রম৷ অনুষদগুলো হচ্ছে কৃষি অনুষদ, ব্যবসা প্রশাসন ও ব্যবস্থাপনা বা বিবিএ অনুষদ, কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং বা সিএসই এবং বরিশাল সরকারি ভেটেরিনারি কলেজ (অধিভুক্ত অনুষদ হিসেবে স্বীকৃত)৷ এর মধ্যে কৃষি অনুষদে ১২৫ জন এবং বিবিএ ও সিএসই-তে ৩০ জন করে শিক্ষার্থী প্রতি সেশনে ভর্তির সুযোগ পায়"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Patuakhali Science and Technology University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ps1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ps2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ps3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ps4" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.pstu.ac.bd.
+        http://en.wikipedia.org/wiki/পটুয়াখালী_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

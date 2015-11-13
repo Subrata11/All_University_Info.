@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Hajee Mohammad Danesh Science and Technology University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hstulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Hajee Mohammad Danesh Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় বাংলাদেশের একটি বিশ্ববিদ্যালয়। উত্তরাঞ্চলের মানবসম্পদ উন্নয়ন ও দেশের মানবসম্পদের বিশ্বব্যাপী গ্রহণযোগ্যতা সৃষ্টির লক্ষে উত্তরবঙ্গের সেন্টার অব এক্সিলেন্স হিসেবে গড়ে তোলার উদ্যেশ্যকে সামনে নিয়ে প্রতিষ্ঠা করা হয় রংপুর বিভাগের প্রথম বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়। তেভাগা আন্দোলন এর জনক ও এ অঞ্চলের জনদরদী কৃষকনেতা হাজী মোহাম্মদ দানেশ এর নামানুসারে এর নামকরণ করা হয়।এই প্রতিষ্ঠানের যাত্রা শুরু ১৯৭৬ সালে এগ্রিকালচারাল এক্সটেনশন ট্রেনিং ইনিস্টিটিউট (AETI) হিসেবে যা কৃষিতে ডিপ্লোমা ডিগ্রী প্রদান করতো। ১৯৮৮ সালের ১১ নভেম্বর এটিকে স্নাতক পর্যায়ে কৃষি কলেজে উন্নীত করা হয়। এটি তখন বাংলাদেশ কৃষি বিশ্ববিদ্যালয়, ময়মনসিংহ এর অধিভুক্ত কলেজ ছিল। ২০০০ সালে কলেজটিকে বিশ্ববিদ্যালয়ে উন্নীত করার লক্ষে “বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় স্হাপন প্রকল্প” গ্রহণ করা হয়। ৮ জুলাই ২০০১ হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় আইন পাশ করা হয়। ২০০২ সালের ৮ এপ্রিল মহামান্য রাষ্ট্রপতি প্রজ্ঞাপন জারির মাধ্যমে বিশ্ববিদ্যালয় স্হাপিত হয়। ১৬ই এপ্রিল আনুষ্ঠানিক শিক্ষা কার্যক্রম শুরু হয়। বিশিষ্ট মৃত্তিকা বিজ্ঞানী প্রফেসর ড: মো: মোশাররফ হোসাইন মিঞাঁ এ বিশ্ববিদ্যালয়ের প্রথম উপাচার্য। এটি উত্তরবঙ্গ তথা রংপুর বিভাগের প্রথম বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়। এ বিশ্ববিদ্যালয়ের শিক্ষার মাধ্যম ইংরেজি। কোর্স-ক্রেডিট-সেমিসটার পদ্ধতিতে পরিচালিত এ বিশ্ববিদ্যালয় বর্তমানে সেশনজট মুক্ত। বর্তমানে ৭টি অনুষদের অধীনে ৮ টি বিষয়ে শিক্ষাদান করা হয়।এ বিশ্ববিদ্যালয়ে সেমিস্টার পদ্ধতিতে পাঠদান করা হয়। প্রতি সেমিস্টার সমাপ্ত হয় ২১ সপ্তাহে। যেখানে ইংরেজি মাধ্যমে ক্লাস ও পরীক্ষা সম্পন্ন করা হয়। পাশাপাশি বাসত্মব জ্ঞান অর্জনের জন্য রয়েছে বিভিন্ন বিষয়ের উপর শিক্ষা সফর। মেধাবীদের জন্য রয়েছে বিভিন্ন পদক ও বৃত্তির ব্যবস্থা। প্রতিটি সেমিস্টারে ক্লাসে অংশগ্রহণ, কুইজ টেস্ট, মিড সেমিস্টার পরীক্ষা এবং ফাইনাল পরীক্ষার মাধ্যমে শেষ করা হয়। সেমিস্টার সম্পন্ন করার বিষয়ে রয়েছে বিভিন্ন ধরনের প্রয়োজনীয় আইন-কানুন। যা দিয়ে শিক্ষার্থীরা খুব সহজেই সকল নিয়ম সম্পর্কে অবগত হতে পারে।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Shahjalal University of Science and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hstu3" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hstu4" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hstu6" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hutu1" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.hstu.ac.bd.
+        http://en.wikipedia.org/wiki/হাজী_মোহাম্মদ_দানেশ_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

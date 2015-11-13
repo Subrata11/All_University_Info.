@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Jessore Science and Technology University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jslogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Jessore Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ২০০৮ সালে যশোরে প্রতিষ্ঠিত হয়। ২০০৯ সালে এর শিক্ষা কার্যক্রম শুরু হয়।যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (JUST), ২০০৯ এ কার্যক্রম শুরু করে। ফলিত বিজ্ঞান অনুষদের অধীনে কম্পিউটার বিজ্ঞান ও তথ্যপ্রযুক্তি, পরিবেশ বিজ্ঞান ও স্বাস্থ্যব্যবস্থাপনা এবং জীববিজ্ঞান অনুষদের অধীনে অনুজীব বিজ্ঞান ও মৎস্য বিভাগের মোট ২০৫ জন শিক্ষার্থীকে নিয়ে ১০ জুন ২০০৯ থেকে প্রথম ব্যচের প্রথম বর্ষের ক্লাস বিশ্ববিদ্যালয়ের আমবটতলা ক্যাম্পাসে শুরু হয়।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Jessore Science and Technology University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/js1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/js2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/js3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/js4" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.jstu.ac.bd.
+        http://en.wikipedia.org/wiki/যশোর_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

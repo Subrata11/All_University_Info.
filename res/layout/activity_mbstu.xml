@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Mawlana Bhashani Science and Technology University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mbstulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Mawlana Bhashani Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (Mawlana Bhashani Science and Technology University) বাংলাদেশের অন্যতম সরকারী বিশ্ববিদ্যালয়। ১৯৯৯ সালে এই বিশ্ববিদ্যালয় ঢাকা বিভাগের অন্তর্গত টাঙ্গাইলের সন্তোষে প্রতিষ্ঠিত হয়। এর নামকরণ করা হয় বাংলাদেশের কিংবদন্তী রাজনৈতিক নেতা মাওলানা আবদুল হামিদ খান ভাসানীর নামানুসারে। এখানকার পড়াশোনার মাধ্যম ইংরেজি। পড়াশোনার সুষ্ঠু পরিবেশ নিশ্চিত করার জন্য এখানে শিক্ষক এবং কর্মকর্তা-কর্মচারীদের জন্য রাজনীতি নিষিদ্ধ করা হয়েছে।
+
+প্রতি বছর স্নাতক পর্যায়ে প্রায় ৭০০ জন শিক্ষার্থী এখানে ভর্তি হয়। শিক্ষকের সংখ্যা সাকল্যে ১৫০ জন। গত কয়েক বছর ধরে বিশ্ববিদ্যালয়ের অবকাঠামোগত প্রভুত উন্নতি হচ্ছে। উদাহরণ হিসেবে বলা যেতে পারে নতুন এ্যাকাডেমিক ভবন, শিক্ষার্থীদের থাকার জন্য নতুন বেশ কয়েকটি আবাসিক হল ইত্যাদির কথা।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Mawlana Bhashani Science and Technology University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mbstua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mbstub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mbstuc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mbstud" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://mbstu.ac.bd.
+        http://en.wikipedia.org/wiki/মাওলানা_ভাসানী_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

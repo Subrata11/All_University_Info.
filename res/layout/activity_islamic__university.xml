@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Islamic University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About IU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ইসলামী বিশ্ববিদ্যালয় (ইংরেজি: Islamic University) বাংলাদেশের একটি সরকারি বিশ্ববিদ্যালয়।[১] বিশ্ববিদ্যালয়টি আর্থিকভাবে ইসলামী সম্মেলন সংস্থার সাহায্য পরিচালিত হয়। ইসলামী শিক্ষার উন্নতি সাধনের লক্ষ্যে ১৯৮০ সালে খুলনা বিভাগের কুষ্টিয়া জেলায় প্রতিষ্ঠানটি গঠন করা হয়।[২][৩] ইসলামী বিশ্ববিদ্যালয় ১৯৮৬ সালের ২৮ জুন তাদের একাডেমিক কার্যক্রম শুরু করেন।ইসলামি বিশ্ববিদ্যালয় ১৯৭৯ সালের ২২ নভেম্বরে শান্তিডাঙ্গা-দুলাপুর (কুষ্টিয়া-ঝিনাইদহ) প্রতিষ্ঠিত হয়েছিল। প্রতিষ্ঠানটির প্রধান উদোক্তা অধ্যাপক ডাঃ এম বারীর নেতৃত্বে ইসলামী বিশ্ববিদ্যালয় পরিকল্পনা কমিটির সুপারিশক্রমের উপর ভিত্তি করে প্রয়াত রাষ্ট্রপতি জিয়াউর রহমান প্রতিষ্ঠা করেন।"/>
+   
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of IU" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iuc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iud" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.iu.ac.bd www.iubd.net.
+        http://en.wikipedia.org/wiki/ইসলামী_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

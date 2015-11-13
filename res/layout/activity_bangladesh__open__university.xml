@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangladesh Open University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bauulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangladesh Open University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="সর্বস্তরের শিক্ষাকে দূরশিক্ষণ পদ্ধতির মাধ্যমে সকল স্তরের জনগনের কাছে পৌছে দেওয়ার উদ্দেশ্যে ঢাকার অদূরে গাজীপুরে উন্মুক্ত বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়েছে।বাংলাদেশের জাতীয় সংসদ কর্তৃক প্রণীত আইন অনুযায়ী ১৯৯২ সালের ২০ অক্টোবর বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়-এর জন্ম। বহুমুখি শিক্ষা প্রযুক্তি ব্যবহারের মাধ্যমে জ্ঞান-বিজ্ঞানের সৃজন, চর্চা ও বিকাশকে অধিকতর গনমুখি ও জীবন-ঘনিষ্ঠ করে দেশের প্রত্যন্ত অঞ্চলে পৌঁছে দেয়ার মাধ্যমে একটি সুশিক্ষিত ও আত্মনির্ভরশীল জাতি গড়ে তুলতে বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয় বিশেষভাবে প্রতিশ্রুতিবদ্ধ।
+
+ঢাকা শহরের উত্তরে গাজীপুর জেলার বোর্ডবাজারে বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয়ের মূল কাম্পাস অবস্তিত। এছাড়া বিশ্ববিদ্যালয়ের শিক্ষা কার্যক্রম সংগঠনের জন্য সারা দেশে রয়েছে ১২টি আঞ্চলিক কেন্দ্র, ৮০টি কো অর্ডিনেটিং আফিস এবং ১০০০টিরও অধিক টিউটোরিয়াল কেন্দ্রের বিশাল নেটওয়ার্ক। এই বিশ্ববিদ্যালয়ের শিক্ষা ও প্রশাসনিক কার্যক্রম পরিচালনার জন্য রয়েছে সাতটি একাডেমিক অনুষদক বা স্কুল এবং ১১টি প্রশাসনিক বিভাগ। বাংলাদেশ উন্মুক্ত বিশ্ববিদ্যালয় আইন (১৯৯২) আনুসারে বিশ্ববিদ্যালয়ের সকল কর্মকাণ্ড বোর্ড অব গভর্নরস, একাডেমিক কাউন্সিল, স্কুল, পাঠ্যক্রম কমিটি, অর্থ কমিটি প্রভৃতি কর্তৃপক্ষের সিদ্ধান্ত ও নীতিমালা অনুযায়ী পরিচালিত হয়।
+
+গণপ্রজাতন্ত্রী বাংলাদেশ সরকারের মাননীয় প্রধানমন্ত্রী/সরকার প্রধান এ বিশ্ববিদ্যালয়ের চ্যান্সেলর এবং বিশিষ্ট শিক্ষাবিদ প্রফেসর ড.এম এরশাদুল বারী এ বিশ্ববিদ্যালয়ের ভাইস চান্সেলর।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangladesh Open University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bauu1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bauu2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bauu3" />
+        
+          
+      
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.bou.edu.bd/
+        http://en.wikipedia.org/wiki/বাংলাদেশ_উন্মুক্ত_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

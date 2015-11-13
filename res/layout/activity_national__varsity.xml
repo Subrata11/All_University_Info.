@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="456dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="জাতীয়  বিশ্ববিদ্যালয় " />
+ 
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhistory2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_light"
+        android:text="The University
+
+Established in 1992 by an Act of Parliament of Bangladesh as an affiliating University, the National University caters the general education at graduate and post-graduate level in colleges/professional institutions hitherto remained affiliated to different public universities in the country. More than a million students are studying in 2000 colleges/institutions affiliated to this university" />
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vc" />
+
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="The VC of NU" />
+    
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhistory3" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_light"
+        android:text="The University is located in a beautiful place surrounded by greenery all around in the district called Gazipur, which is just 30 km away from the countryÃ¢â‚¬â„¢s capital city, Dhaka. Unlike other universities of Bangladesh, the National University is an off-campus University spread to the length and breath of the country through its affiliated bodies. Besides the Headquarters in Gazipur, there are six Regional Centres in six administrative divisions to run the affairs of the University." />
+    
+    
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhistory4" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_green_light"
+        android:text="The University offers BA, BSS, BBS, B.Sc., Post-graduate and Professional degrees through field level institutions. However, it also conducts MS, M.Phil and Ph.D. Programmes on a limited scale at the Gazipur campus. The National University is expanding in terms of number of students, courses and institutions day by day." />
+    
+   
+    
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_red_dark"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ
+        http://www.nu.edu.bd/" />
+    
+ 
+    
+    
+    
+    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

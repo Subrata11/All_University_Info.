@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Pabna Science and Technology University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pabnalogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Pabna Science and Technology University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় বাংলাদেশের একটি সরকারি বিশ্ববিদ্যালয়। রাজশাহী বিভাগের অন্তর্গত পাবনা জেলায় এটি অবস্থিত। পাবনা জেলার মধ্যে এটি প্রথম সরকারি বিশ্ববিদ্যালয়। এটি ২০০৮ সালে প্রতিষ্ঠিত হয় এবং ২০০৯ সাল থেকে ৪ বছর মেয়াদী প্রাক স্নাতক কোর্স চালু হয়।প্রসঙ্গত ১৫জুলাই ২০০১ সালে তৎকালীন সরকার এই বিশ্ববিদ্যালয়ের আইন পাশ করেন।এই বিশ্ববিদ্যালয়টি পাবনা শহরের রাজাপুর নামক স্থানে অবস্থিত ।এটি পাবনা-ঢাকা হাইওয়ের দক্ষিণ পাশে অবস্থিত। মূল ক্যামপাস সহ পাবনা টিচার্স ট্রেনিঙ্গি কলেজ এ বিশ্ববিদ্যালয়ের ক্লাস পরিচালনা হয় ।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Pabna Science and Technology University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pabna1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pabna2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pabna3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pabna4" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.pstu.ac.bd.
+        http://en.wikipedia.org/wiki/পাবনা_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Jagannath University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About JnU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="জগন্নাথ বিশ্ববিদ্যালয় বাংলাদেশের রাজধানী ঢাকার, সদরঘাটে অবস্থিত একটি স্বায়ত্বশাসিত পাবলিক বিশ্ববিদ্যালয়। পূর্বতন জগন্নাথ বিশ্ববিদ্যালয় কলেজকে একটি পূর্ণাঙ্গ বিশ্ববিদ্যালয় হিসেবে ঘোষণার মাধ্যমে জগন্নাথ বিশ্ববিদ্যালয়ের শুরু। অধ্যাপক ড: এ. কে. এম. সিরাজুল ইসলাম খান এই বিশ্ববিদ্যালয়ের প্রথম উপাচার্য। জগন্নাথ বিশ্ববিদ্যালয় (জবি) শিক্ষা প্রতিষ্ঠান হিসেবে যাত্রা শুরু করে ১৮৫৮ সালে এবং ২০০৫ সালে বাংলাদেশের জাতীয় সংসদে জগন্নাথ বিশ্ববিদ্যালয় আইন-২০০৫ পাশ করার মাধ্যমে এই প্রতিষ্ঠানটি পুর্নাজ্ঞ বিশ্ববিদ্যালয়ে রুপ নেয়।জগন্নাথ বিশ্ববিদ্যালয়ের অব্যবহিত প্রাক্তন নাম জগন্নাথ বিশ্ববিদ্যালয় কলেজ, তবে এটি জগন্নাথ কলেজ নামেই বিংশ শতাব্দীর অধিকাংশ সময় জুড়ে পরিচিত ছিল। এটি ঢাকার একটি ঐতিহ্যবাহী কলেজ। ১৮৫৮ সালে ঢাকা ব্রাহ্ম স্কুল নামে এর প্রতিষ্ঠা হয়। ১৮৭২ সালে এর নাম বদলে জগন্নাথ স্কুল করা হয়। বালিয়াটির জমিদার কিশোরীলাল চৌধুরী তার বাবার নামে জগন্নাথ স্কুল নামকরন করেন । ১৮৮৪ সালে এটি একটি দ্বিতীয় শ্রেণীর কলেজে ও ১৯০৮ সালে প্রথম শ্রেণীর কলেজে পরিণত হয়। এসময় এটিই ছিল ঢাকার উচ্চ শিক্ষার সবচেয়ে গুরুত্বপূর্ণ শিক্ষা প্রতিষ্ঠান । ১৯২১ সালে ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠা শুরু হলে জগন্নাথ কলেজের স্নাতক কার্যক্রম বন্ধ করে দেয়া হয়। জগন্নাথ বিশ্ববিদ্যালয়ের ডিগ্রির শিক্ষার্থী , শিক্ষক , গ্রন্থাগারের বই পুস্তক , জার্নাল ঢাকা বিশ্ববিদ্যালয়ে স্থানান্তর করা হয় । । ঢাকা বিশ্ববিদ্যালয়ের গ্রন্থাগার সাজাতে জগন্নাথ কলেজ গ্রন্থাগারের ৫০ ভাগ বই দান করা হয়। জগন্নাথ কলেজে আই,এ, আই,এসসি, বি,এ (পাস) শ্রেণী ছাড়াও ইংরেজি, দর্শন ও সংস্কৃতি অনার্স এবং ইংরেজিতে মাস্টার্স চালু করা হলেও ১৯২১ সালে ঢাকা বিশ্ববিদ্যালয় প্রতিষ্ঠার পর তা বন্ধ করে দেয়া হয় এবং ইন্টারমিডিয়েট কলেজে অবনমিত করা হয় জগন্নাথকে। পুরানো ঢাকার নারী শিক্ষায় বাধা দূর করতে ১৯৪২ সালে সহশিক্ষা চালু করা হয়। ১৯৪৮ সালে তা বন্ধ করে দেয়া হয়। পরে ১৯৪৯ সালে আবার এ কলেজে স্নাতক পাঠ্যক্রম শুরু হয়।১৯৫২ সালে ভাষা আন্দোলনে এই বিশ্ববিদ্যালয়ের হিসাববিজ্ঞান বিভাগের শিক্ষার্থী মোহাম্মাদ রফিকউদ্দিন (ভাষা শহীদ রফিক) আত্মত্যাগ করেন । ১৯৬৩ সালে অধ্যক্ষ সাইদুর রহমান পুনরায় কো-এডুকেশন চালু করেন। ১৯৬৮ সালে এটিকে সরকারীকরণ করা হয়, কিন্তু পরের বছরেই আবার এটি বেসরকারী মর্যাদা লাভ করে। ২০০৫ সালে জাতীয় সংসদে জগন্নাথ বিশ্ববিদ্যালয় আইন-২০০৫ পাশের মাধ্যমে এটি পুর্নাজ্ঞ বিশ্ববিদ্যালয়ে রুপান্তরিত হয় । বর্তমানে মোট ছয়টি অনুষদের অধীনে ৩১ টি বিভাগের ও একটি ইন্সিটিউটের মাধ্যমে এখানে শিক্ষা কার্যক্রম চলছে । ২০শে অক্টোবর জগন্নাথ বিশ্ববিদ্যালয় দিবস।জগন্নাথ বিশ্ববিদ্যালয়ে বর্তমানে মোট ছয়টি অনুষদে ৩১ টি বিভাগ ও ০১ টি ইন্সিটিউট রয়েছে ।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of JnU" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnuc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jnud" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.jnu.ac.bd.
+        http://en.wikipedia.org/wiki/জগন্নাথ_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

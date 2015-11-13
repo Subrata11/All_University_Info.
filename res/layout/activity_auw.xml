@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Asian University for Women logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auwlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Asian University for Women" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="এশিয়ান ইউনিভার্সিটি ফর উইমেন দক্ষিণ এশিয়ার প্রথম লিবারেল আর্টস ইউনিভার্সিটি যা বাংলাদেশের দুইটি আন্তর্জাতিক বিশ্ববিদ্যালয়ের একটি।[১] বাংলাদেশ সরকার কর্তৃক মঞ্জুরিত জমিতে এটি স্থাপিত এবং এর বর্তমান ক্যাম্পাস তথা নতুন ক্যাম্পাস বন্দর নগরী চট্টগ্রামে অবস্থিত।AUW এর প্রথম একাডেমিক প্রোগ্রাম প্রি-কলেজিয়েট Access Academy ২০০৮ সালের মার্চ মাসে বাংলাদেশ,ভারত,পাকিস্তান,শ্রীলঙ্কা,নেপাল,কম্বোডিয়ার ১৩০ জন ছাত্রী নিয়ে যাত্রা শুরু করে।প্রথম Access Academy Class ২০০৯ সালে উত্তীর্ণ হয় এবং Undergraduate প্রোগ্রামে পড়াশুনা শুরু করে। AUW এর বর্তমান শিক্ষার্থীবর্গ বাংলাদেশ, আফগানিস্তান, ভুটান, কম্বোডিয়া, কানাডা, চীন, ভারত, ইন্দোনেশিয়া, মালয়েশিয়া, মায়ানমার, নেপাল, পাকিস্তান, ফিলিস্তিন, শ্রীলঙ্কা, সিরিয়া, ভিয়েতনাম প্রভৃতি ১৬ টি দেশ থেকে এসেছে। AUW এর পরকল্পিত ক্যাম্পাসের ডিজাইনার স্থপতি Moshe Safdie.AUW সেই সকল তরুণীকেই স্নাতক হিসেবে গড়ে তোলে যারা দক্ষ এবং কর্মক্ষেত্রে পরিবর্তন আনতে পারবে, যে সম্প্রদায়ে তারা বসবাস করবে এবং জীবিকা নির্বাহ করবে সেই ক্ষেত্রে নেতৃত্ব দিতে পারবে নিজ নিজ পেশা অনুসারে , আন্তঃসাংস্কৃতিক বোঝাপড়া উন্নতিতে অবদান রাখবে সর্বোপরি আর্থসামাজিক ক্ষেত্রে এশিয়া তথা সমগ্র বিশ্বে উল্লেখযোগ্য পরিবর্তন রাখতে পারবে। AUW এর লক্ষ্য -
+
+    তরুণীদের শিক্ষিত করা যাতে তারা দক্ষ কর্মজীবী হয়ে ওঠে এবং নেতৃত্ব দানে সক্ষম হয়।
+    তাদের একটি গতিশীল এবং অসম আবাসিক পড়াশুনার ব্যবস্থা করা যেখানে মেধাবী তরুণী এবং বিভিন্ন ধর্মীয় ও সংস্কৃতিক পরিবেশ থেকে আগত শিক্ষার্থীরা মানসিক এবং বুদ্ধিবৃত্তি্ক দিক দিয়ে বেড়ে উঠতে পারে।
+    একটি শিক্ষার্থী-কেন্দ্রিক পড়াশুনার পরিবেশ সৃষ্টি করা যেখানে আর্টস, হিউম্যানিটিস,মৌলিক ও সামাজিক বিজ্ঞান অনুসন্ধানের বিশাল ক্ষেত্র সৃষ্টি করে, যেখানে শৃঙ্খলাবদ্ধ ও স্বাধীন শিক্ষার্থীরা জ্ঞানের গভীরে মনোনিবেশ করতে পারে, যেখানে তত্ত্বীয় জ্ঞান, সমসাময়িকক বিষয়,এশিয়া তথা সমগ্র বিশ্বের চ্যালেন্জ মোকাবেলায় সমন্বয় সাধন করতে শিক্ষার্থীদের majors এবং সাধারণ শিক্ষা উভয়েই ফলিত শিক্ষায় কাজে লাগে।
+    শিক্ষার্থীদের পড়াশুনায় লক্ষ্য রাখা যাতে তারা বুদ্ধিবৃত্তি্ক ক্ষমতা, লক্ষণীয় ব্যক্তিগত উন্নতি, নেতৃত্ব দানের ক্ষমতা এবং কর্মভিত্তিক দৃষ্টিভঙ্গির অধিকারী হয়।
+  AUW একটি অনুপম ফান্ডিং মডেল পরিচালনা করে যার প্রায় পুরোটাই দানের উপর নির্ভরশীল। ৯৯% শিক্ষার্থীকে বৃত্তি প্রদান করে AUW টিউশন ফি এর চেয়ে, অপেক্ষাকৃত কম সুযোগসুবিধা অঞ্চল থেকে শিক্ষার্থী বাছাইয়ে মনোনিবেশ করে।"/>
+    
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Asian University for Women" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auw1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auw2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/auw3" />
+        
+          
+    
+      
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.auw.edu.bd.
+        http://en.wikipedia.org/wiki/এশিয়ান_ইউনিভার্সিটি_ফর_উইমেন" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

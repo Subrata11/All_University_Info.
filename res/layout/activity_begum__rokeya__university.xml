@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Begum Rokeya University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Begum Rokeya University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বেগম রোকেয়া বিশ্ববিদ্যালয় ৮ অক্টোবর ২০০৮ সালে রংপুরে প্রতিষ্ঠিত হয়। এটি রংপুর বিভাগের একমাত্র পুর্ণাঙ্গ সরকারি বিশ্ববিদ্যালয়। রংপুর বিশ্ববিদ্যালয় নামে যাত্রা শুরু করে ২০০৯ সালে নারী জাগরনের অগ্রদূত বেগম রোকেয়া সাখাওয়াত হোসেনের স্মরণে নাম পরিবর্তিত হয়ে বেগম রোকেয়া বিশ্ববিদ্যালয়ে পরিণত হয়। রংপুর বিভাগের ছাত্র-ছাত্রীদের উচ্চ শিক্ষায় এই বিশ্ববিদ্যালয় অসামান্য অবদান রাখছে। বর্তমানে বিভিন্ন বিভাগে প্রায় ৩০০০ শিক্ষার্থী এখানে অধ্যয়ন করছে।রংপুরের ঐতিহ্যবাহী কারমাইকেল কলেজ ও রংপুর ক্যাডেট কলেজ সংলগ্ন পার্কের মোড়ে এই ক্যাম্পাসটি গড়ে উঠেছে যা রংপুর শহরের প্রাণকেন্দ্র থেকে প্রায় পাঁচ কিলোমিটার দূরে রংপুর কুড়িগ্রাম মহাসড়কে অবস্থিত।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Begum Rokeya University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bruc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brud" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.brur.ac.bd.
+        http://en.wikipedia.org/wiki/বেগম_রোকেয়া_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

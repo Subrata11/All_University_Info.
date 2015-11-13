@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangabandhu Sheikh Mujib Medical University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bsmmlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangabandhu Sheikh Mujib Medical University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় বাংলাদেশের প্রথম চিকিৎসা বিশ্ববিদ্যালয় যা ঢাকা শহরের শাহবাগে অবস্থিত। পূর্বে এটির নাম ছিলো ইন্সটিটিউট অফ পোস্ট গ্রাজুয়েট মেডিসিন এন্ড রিসার্চ (Institute of Post Graduate Medical Research সংক্ষেপে IPGMR)। স্থানীয়ভাবে পিজি হাসপাতাল নামটি বহুল ব্যবহৃত ছিলো। ১৯৯৯ খ্রিস্টাব্দে জাতীয় সংসদে আইন প্রণয়নপূর্বক পিজি হাসপাতালকে বাংলাদেশের প্রথম চিকিৎসা বিশ্ববিদ্যালয়ে রূপান্তরিত করা হয়। এর প্রতিষ্ঠাতা উপাচার্য ছিলেন অধ্যাপক কাদরী। এটি একটি সরকারী বিশ্বদ্যিালয়। নব্বুইয়ের দশকে স্বল্পসময়ের জন্য এমবিবিএস কোর্স চালু করা হলেও এই প্রতিষ্ঠানে পূর্বাপর কেবল স্নাতকোত্তর শিক্ষা প্রদান করা হয়। এই বিশ্ববিদ্যালয়ে একটি হাসপাতাল আছে যাতে উন্নতমানের চিকিৎসা প্রদান করা হয়। ২০০৯ খ্রিস্টাব্দ থেকে অধ্যাপক প্রাণ গোপাল দত্ত এ বিশ্ববিদ্যালয়ের উপচার্যের দায়িত্ পালন করছেন।"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangabandhu Sheikh Mujib Medical University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bsmm1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bsmm2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bsmm3" />
+        
+          
+      
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.BSMMMU.edu.bd/
+        http://en.wikipedia.org/wiki/বঙ্গবন্ধু_শেখ_মুজিব_মেডিকেল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

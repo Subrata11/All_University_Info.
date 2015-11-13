@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="পাবলিক  বিশ্ববিদ্যালয়সমূহের তালিকা" />
+
+<!--         </LinearLayout> -->
+<!--     </ScrollView> -->
+
+    <Button
+        android:id="@+id/du"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="1.ঢাকা বিশ্ববিদ্যালয়" />
+
+    <Button
+        android:id="@+id/ru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="2.রাজশাহী বিশ্ববিদ্যালয়" />
+    <Button
+        android:id="@+id/cu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="3.চট্টগ্রাম বিশ্ববিদ্যালয় " />
+
+    <Button
+        android:id="@+id/ju"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="4.জাহাঙ্গীরনগর বিশ্ববিদ্যালয়" />
+
+     
+
+    <Button
+        android:id="@+id/bu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="5.বরিশাল বিশ্ববিদ্যালয়" />
+	
+    <Button
+        android:id="@+id/iu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="6.ইসলামী বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/khu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="7.খুলনা বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/chu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="8.কুমিল্লা বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/jnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="9.জগন্নাথ বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/knu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="10.জাতীয় কবি কাজী নজরুল ইসলাম বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/bru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="11.বেগম রোকেয়া বিশ্ববিদ্যালয়" />
+    
+     
+      
+ 
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

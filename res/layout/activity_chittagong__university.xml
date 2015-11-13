@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Chittagram University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/culogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About CU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="চট্টগ্রাম বিশ্ববিদ্যালয় (ইংরেজি: University of Chittagong) বাংলাদেশের একটি সরকারি বিশ্ববিদ্যালয়। এটি ১৯৬৬ সালে চট্টগ্রাম জেলার হাটহাজারী উপজেলায় স্থাপিত হয়। এটি দেশের তৃতীয় বৃহৎ পাবলিক বিশ্ববিদ্যালয়।" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="চট্টগ্রাম বিশ্ববিদ্যালয় চট্টগ্রাম শহর থেকে প্রায় ২২ কিলোমিটার উত্তরে হাটহাজারী থানার ফতেহপুর ইউনিয়নের জোবরা গ্রামে পশ্চিম-পট্টি মৌজার ১৭৫৩.৮৮ একর পাহাড়ি এবং সমতল ভূমির উপর অবস্থিত। ১৯৬৬ সালের ১৮ নভেম্বর আনুষ্ঠানিকভাবে এই বিশ্ববিদ্যালয়ের যাত্রা শুরু।তৎকালিন পূর্ব-পাকিস্তানের জনশিক্ষা উপ-পরিচালক মো. ফেরদাউস খান ১৯৬২ সালে চট্টগ্রাম বিশ্ববিদ্যালয় পতিষ্ঠার প্রাথমিক খসড়া পরিকল্পনা তৈরি করেন। প্রথমদিকে এ বিশ্ববিদ্যালয় সিলেট, কুমিল্লা ও নোয়াখালিতে স্থাপনের পরিকল্পনা করা হলেও অবশেষে চট্টগ্রামে প্রতিষ্ঠা করা হয়। কথিত রয়েছে তৎকালীন পাকিস্তানের প্রধানমন্ত্রীর অনুপস্থিতির সুজোগ নিয়ে তৎকালীন পাকিস্তানের স্পিকার ফজলুল কাদের চৌধুরী কুমিল্লা থেকে চট্টগ্রামে বিশ্ববিদ্যালয়টি স্থাপনের ব্যাবস্থা করেন। ১৯৬১ সালে চট্টগ্রামের সমাজকর্মী বাদশাহ মিয়া চৌধুরীর সভাপতিত্বে এবং সিটি কলেজের অধ্যাপক আহমদ হোসেনরে তত্ত্বাবধানে  চট্টগ্রাম বিশ্ববিদ্যালয় সংগ্রাম পরিষদ গঠিত হয়। ১৯৬৪ সালের ২৯শে আগস্ট পাকিস্তানের রাষ্ট্রপতি আইয়ুব খান চট্টগ্রাম বিশ্ববিদ্যালয়ের ভিত্তিপ্রস্তর স্থাপন করেন।" />
+     
+    
+    
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of CU" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuc" />
+        
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cud" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuf" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ: www.cu.ac.bd.
+        http://en.wikipedia.org/wiki/চট্টগ্রাম_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

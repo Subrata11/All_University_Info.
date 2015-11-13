@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Jahangirnagar University logo" />
+            
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/julogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About CU" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="জাহাঙ্গীরনগর বিশ্ববিদ্যালয় বাংলাদেশের একটি অন্যতম আবাসিক পাবলিক বিশ্ববিদ্যালয়। ঢাকার অদূরে সাভার এলাকায় প্রায় ৬৯৭.৫৬ একর এলাকা নিয়ে প্রতিষ্ঠানটি অবস্থিত। ১৯৭০ সালে বিশ্ববিদ্যালয়টি প্রতিষ্ঠিত হলেও সম্পূর্ণরূপে এর কার্যক্রম শুরু হয় ১৯৭২ সালে। এই বিশ্ববিদ্যালয়ে কলা ও মানবিকী, গাণিতিক ও পদার্থবিষয়ক, সমাজ বিজ্ঞান, জীববিজ্ঞান ও ব্যবসায় শিক্ষা অনুষদ রয়েছে। জাহাঙ্গীরনগর বিশ্ববিদ্যালয়ের বর্তমান উপাচার্যের নাম ড. ফারজানা ইসলাম।উপাচার্য ড.ফারজানা ইসলাম বাংলাদেশের পাবলিক বিশ্ববিদ্যালয়ের মধ্যে প্রথম নারী উপাচার্য হিসেবে ২০১৪ সালের ২ রা মার্চ থেকে দয়িত্ব পালন করছেন।এছাড়াও রয়েছেন দুজন প্রো-উপাচার্য।"/>
+             
+   
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of JU" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jua" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/jub" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/juc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuf" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ: www.ju.ac.bd.
+        http://en.wikipedia.org/wiki/জাহাঙ্গীরনগর_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

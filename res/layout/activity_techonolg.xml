@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়  বিশ্ববিদ্যালয়সমূহের তালিকা" />
+
+   
+    <Button
+        android:id="@+id/sust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="1.শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+
+    <Button
+        android:id="@+id/mbstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="2.মাওলানা ভাসানী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    <Button
+        android:id="@+id/hstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="3.হাজী মোহাম্মদ দানেশ বিজ্ঞান ও প্রযুক্তি  বিশ্ববিদ্যালয় " />
+
+    <Button
+        android:id="@+id/pstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="4.পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+
+     
+
+    <Button
+        android:id="@+id/nstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="5.নোয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+	
+    <Button
+        android:id="@+id/jstu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="6.যশোর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/pabna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="7.পাবনা বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    
+    <Button
+        android:id="@+id/bs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="8.বঙ্গবন্ধু শেখ মুজিবুর রহমান বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    
+     
+    
+    
+      </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

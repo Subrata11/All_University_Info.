@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:background="@android:color/holo_blue_bright"
+                android:text="পাবলিক  বিশ্ববিদ্যালয়সমূহের তালিকা" />
+
+  
+
+    <Button
+        android:id="@+id/buet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="1.বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয়" />
+
+    <Button
+        android:id="@+id/ruet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="2.রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+    <Button
+        android:id="@+id/cuet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="3.চট্টগ্রাম প্রকৌশল ও প্রযুক্তি  বিশ্ববিদ্যালয় " />
+
+    <Button
+        android:id="@+id/kuet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_purple"
+        android:text="4.খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+
+     
+
+    <Button
+        android:id="@+id/duet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@android:color/holo_orange_dark"
+        android:text="5.ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়" />
+	
+           </LinearLayout>
+    </ScrollView>
+ 
+</LinearLayout>

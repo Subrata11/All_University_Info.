@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Chittagong University of Engineering and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuetlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Chittagong University of Engineering and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="চট্টগ্রাম প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় (ইংরেজীঃ Chittagong University of Engineering And Technology) বা সংক্ষেপে চুয়েট (CUET) বাংলাদেশের একটি শীর্ষস্থানীয় স্বায়ত্বশাসিত সরকারী প্রকৌশল বিশ্ববিদ্যালয়। এটি দক্ষিণ-পূর্বাঞ্চলীয় চট্টগ্রাম বিভাগের চট্টগ্রাম জেলায় অবস্থিত। এটি চট্টগ্রাম শহরের থেকে ২৫ কিলোমিটার দূরে রাউজান থানায় অবস্থিত। এর পূর্বতন নাম ছিল বাংলাদেশ ইন্সটিটিউট অফ টেকনোলজী (বিআইটি), চট্টগ্রাম এবং তার পূর্বে চট্টগ্রাম প্রকৌশল কলেজ। প্রায় আড়াই হাজার শিক্ষার্থী এখানে প্রকৌশল, স্থাপত্য, নগর পরিকল্পনা ও বিজ্ঞান বিষয়ে স্নাতক ও স্নাতকোত্তর পর্যায়ে পড়াশোনা করেন।চট্টগ্রামে একটি প্রকৌশল শিক্ষালয় প্রতিষ্ঠা করার উদ্দেশ্যে ২৮ ডিসেম্বর,১৯৬৮ সালে 'চট্টগ্রাম প্রকৌশল কলেজ' নামে চট্টগ্রাম বিশ্ববিদ্যালয়ের ইঞ্জিনিয়ারিং অনুষদের অধীনে এটি যাত্রা শুরু করে। ভর্তি শুরু হয় ১৯৬৮-৬৯ শিক্ষাবর্ষ হতে।১লা জুলাই ১৯৮৬ সালে এটি বাংলাদেশ ইন্সটিটিউট অফ টেকনোলজি,(বিআইটি) চট্টগ্রাম রুপে উন্নীত করা হয়। পরবর্তীতে ১লা সেপ্টেম্বর, ২০০৩ সালে একটি সরকারী অধ্যাদেশের মাধ্যমে এটিকে পূর্ণাঙ্গ প্রকৌশল বিশ্ববিদ্যালয়ের মর্যাদা দেয়া হয়।
+এছাড়া বিআইটি ঢাকা, বিআইটি খুলনা ও বিআইটি রাজশাহী নামে আরো ৩টি ইন্সটিটিউট অফ টেকনোলজি ছিল যেগুলি পরবর্তিতে যথাক্রমে ঢাকা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়, খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়, রাজশাহী প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয় তে রূপান্তর করা হয়।
+১৯৭১ সালের বাংলাদেশের স্বাধীনতা যুদ্ধে চুয়েটের ২ জন ছাত্র শহীদ হয়
+"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Chittagong University of Engineering and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuet1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuet2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuet3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuet4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cuet5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.cuet.ac.bd.
+        http://en.wikipedia.org/wiki/চট্টগ্রাম_প্রকৌশল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

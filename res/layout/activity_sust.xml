@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Shahjalal University of Science and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sustlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Shahjalal University of Science and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় ২৫ শে আগষ্ট ১৯৮৬ সালে প্রতিষ্ঠিত হয় এবং ১৯৯১ সালের ১৩ই ফেব্রুয়ারি তিনটি বিভাগ নিয়ে বিশ্ববিদ্যালয়ের একাডেমিক কার্যক্রম শুরু হয়। এর ক্যাম্পাসটি সিলেট শহর হতে প্রায় ৫ কিলোমিটার দূরে কুমারগায়ে অবস্থিত। ৬টি অনুষদের অধীনে ২৫ টি ডিপার্টমেন্ট নিয়ে বিশ্ববিদ্যালয়টি সুনামের সাথে তার কার্যক্রম চালিয়ে যাচ্ছে। বিজ্ঞান ও প্রযুক্তি বিষয়ের ওপর জোর দেয়া হলেও এই বিশ্ববিদ্যালয়ে কলা এবং বাণিজ্য সংক্রান্ত বিষয়ও রয়েছে। সেদিক থেকে বাংলাদেশে এটি একটি ব্যতিক্রমধর্মী বিশ্ববিদ্যালয়। বিশ্ববিদ্যালয়ের প্রথম ও দ্বিতীয় সমবর্তন অনুষ্ঠিত হয় যথাক্রমে ২৯ এপ্রিল ১৯৯৮ এবং ৬ ডিসেম্বর ২০০৭ সালেশাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় (শাবিপ্রবি এবং সাস্ট নামেও পরিচিত), সিলেট, বাংলাদেশ এ অবস্থিত একটি সরকারী বিশ্ববিদ্যালয়।  বাংলাদেশে যেকয়টি বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় প্রতিষ্ঠিত হয়েছে তার মধ্যে এটিই সর্বপ্রথম। বিশ্ববিদ্যালয়ের শিক্ষার মাধ্যম ইংরেজী।এটি এশিয়া মহাদেশের অন্যতম বড় একটি বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় । 
+
+শাবিপ্রবি বাংলাদেশের অন্যতম তথ্যপ্রযুক্তি সম্বৃদ্ধ একটি বিশ্ববিদ্যালয়.এটি দেশের সর্বপ্রথম বিশ্ববিদ্যালয় হিসেবে শিক্ষার্থী এবং স্টাফদের জন্য বিনামূল্যে সম্পূর্ণ ক্যাম্পাসে ওয়াই ফাই চালু করে।  বিশ্ববিদ্যালয়টি বাংলাদেশে প্রথমবারের মত সমন্বিত সম্মান কোর্স চালু করার পাশাপাশি ১৯৯৬-৯৭ সেশন থেকে স্নাতক কোর্সে সেমিস্টার পদ্ধতির(আমেরিকান সেমিস্টার পদ্ধতি) প্রবর্তন করে। প্রতিবছর বিদ্যমান সুবিধাগুলির উন্নতি হচ্ছে,খোলা হচ্ছে নতুন নতুন বিভাগ।মূল পরিকল্পনা অনুযায়ী,আগামী কয়েক বছরের মধ্যে শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় এই অন্ঞলের অন্যতম একটি প্রসিদ্ধ বিশ্ববিদ্যালয় হিসেবে পরিচিতি লাভ করবে"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Shahjalal University of Science and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/susta" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sustb" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sustc" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sustd" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.sust.edu.
+        http://en.wikipedia.org/wiki/শাহজালাল_বিজ্ঞান_ও_প্রযুক্তি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

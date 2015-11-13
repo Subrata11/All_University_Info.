@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="sher-e-bangla-agricultural University logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/saulogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About sher-e-bangla-agricultural University" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="শেরে বাংলা কৃষি বিশ্ববিদ্যালয় (সংক্ষেপে শেকৃবি) (ইংরেজি: Sher-e-Bangla Agricultural University) বাংলাদেশ ও দক্ষিণ এশিয়ার প্রাচীনতম কৃষি শিক্ষা এবং গবেষণা প্রতিষ্ঠান । অনন্য এ শিক্ষা প্রতিষ্ঠানটি রাজধানী ঢাকার শেরেবাংলা নগরে অবস্থিত। ১৯৩৮-এ সাধারণ কৃষি শিক্ষা প্রতিষ্ঠান হিসাবে স্থাপিত এই ইন্সটিটিউটটি ২০০১ এ বিশ্ববিদ্যালয়ে উন্নীত হয়।
+
+উচ্চতর কৃষি শিক্ষার বিস্তারের মাধ্যমে দেশে কৃষি উন্নয়নের গুরুদায়িত্ব বহনে সক্ষম তাত্ত্বিক ও ব্যবহারিক জ্ঞানসম্পন্ন দক্ষ কৃষিবিদ এবং কৃষিবিজ্ঞানী তৈরি করাই এ বিশ্ববিদ্যালয়ের অন্যতম প্রধান লক্ষ্য। পাশাপাশি কৃষি গবেষণা এর যথাযথ প্রচার ও প্রসার করার জন্য এই বিশ্ববিদ্যালয় বিশেষ অবদান রেখে চলেছে।এই বিশ্ববিদ্যালয়ে তিনটি কোর্স চালু রয়েছে- স্নাতক (সম্মান), স্নাতকোত্তর ও ডক্টরেট। এখানে প্রায় ১৭০ জন মেধাবী ও গুণী শিক্ষক শিক্ষাদান করছেন। এই বিশ্ববিদ্যালয়ে রয়েছে তিনটি অনুষদ, ৩১ টি বিভাগ।বাংলাদেশের প্রথম ডিজিটাল বিশ্ববিদ্যালয় শেরে বাংলা কৃষি বিশ্ববিদ্যালয়। প্রতিটি ক্লাশরুমে রয়েছে সেন্ট্রালি অর্গানাইজড মাল্টিমিডিয়া সুবিধা। বাংলাদেশের একমাত্র ভার্চুয়াল ক্লাশরুম রয়েছে এই বিশ্ববিদ্যালয়ে[৪][৫]। এখানে বসে ছাত্ররা বিশ্বের যে কোনো বিশ্ববিদ্যালয়ের (ভার্চুয়াল সুবিধাযুক্ত) যে কোন শিক্ষকের ক্লাশে অংশ নিতে পারবে এবং অন্য বিশ্ববিদ্যালয়ের ছাত্ররাও এই বিশ্ববিদ্যালয়ের শিক্ষকগণের লেকচার শুনতে পাবে। এই বিশ্ববিদ্যালয়ে সাউরেসের অর্থায়নের পাশাপাশি ইউজিসি, বিএআরসি, এফও, ইউনেস্কো ও হেকেপসহ অনেক প্রকল্পে কাজ চলছে। শেরেবাংলা কৃষি বিশ্ববিদ্যালয়ের নেতৃত্বে অন্যান্য কৃষি বিশ্ববিদ্যালয়গুলোকে সাথে নিয়ে শেকৃবি গড়ে তুলেছে কৃষি থিসিস এবং জার্নালের সর্ববৃহৎ ডিজিটাল আর্কাইভ"/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of sher-e-bangla-Agricultural University" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sau1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sau2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sau3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sau4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sau5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.sau.edu.bd/.
+        http://en.wikipedia.org/wiki/শেরে_বাংলা_কৃষি_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

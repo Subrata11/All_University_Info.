@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Bangladesh University of Engineering and Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buetlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Bangladesh University of Engineering and Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="বাংলাদেশ প্রকৌশল বিশ্ববিদ্যালয় (Bangladesh University of Engineering and Technology) (সংক্ষেপে, বুয়েট) বাংলাদেশের শীর্ষস্থানীয় প্রকৌশল বিশ্ববিদ্যালয়। এটি ঢাকা শহরের পলাশী এলাকায় অবস্থিত। প্রায় পাঁচ হাজার শিক্ষার্থী এখানে প্রকৌশল, স্থাপত্য, পরিকল্পনা ও বিজ্ঞান বিভাগে স্নাতক ও স্নাতকোত্তর পর্যায়ে পড়াশোনা করেন।পাকিস্তান আমলে ১৯৬২ সালের ১ জুন তারিখে এটিকে একটি পূর্ণাঙ্গ প্রকৌশল বিশ্ববিদ্যালয়ে পরিণত করে নাম দেয়া হয় পূর্ব পাকিস্তান প্রকৌশল ও কারিগরী বিশ্ববিদ্যালয় (East Pakistan University of Engineering and Technology, or EPUET)। তৎকালীন কারিগরী শিক্ষা পরিচালক ডঃ এম. এ. রশিদ প্রথম ভাইস চ্যান্সেলর নিযুক্ত হন। অধ্যাপক এ. এম. আহমেদ প্রকৌশল অনুষদের প্রথম ডীন নিযুক্ত হন। খ্যাতনামা গণিতজ্ঞ এম. এ. জব্বার প্রথম রেজিস্ট্রার ও মমতাজউদ্দিন আহমেদ প্রথম কম্পট্রোলার নিযুক্ত হন। ডঃ এম. এ. রশিদের যোগ্য নেতৃত্বে বিশ্ববিদ্যালয়টি দৃঢ় ভিত্তির উপর প্রতিষ্ঠিত হয়।
+
+বিশ্ববিদ্যালয়রূপে প্রতিষ্ঠিত হবার পরে ছাত্রদের জন্য তিনটি নতুন আবাসিক হল তৈরি করা হয়। অধ্যাপক কবিরউদ্দিন আহমেদ প্রথম ছাত্রকল্যাণ পরিচালক পদে নিযুক্ত হন। ১৯৬২ সালেই প্রথম স্থাপত্য ও পরিকল্পনা অনুষদে স্থাপত্য বিভাগ গঠন করা হয়, এই বিভাগের জন্য টেক্সাস এ. এন্ড এম. কলেজের কয়েকজন শিক্ষক যোগদান করেন। এভাবে প্রকৌশল ও স্থাপত্য এই দুটি অনুষদে পুর, যন্ত্র, তরিৎ, কেমি ও ধাতব প্রকৌশল এবং স্থাপত্য বিভাগ নিয়ে প্রকৌশল বিশ্ববিদ্যালয় যাত্রা শুরু করে। ক্রমবর্ধমান চাহিদা পূরণের জন্য ১৯৬৪ সালে আসন সংখ্যা ২৪০ থেকে ৩৬০ জনে বৃদ্ধি করা হয়। একই বছরে বর্তমান ৭ তলা পুরকৌশল ভবন নির্মাণ শুরু হয়। ১৯৬৯-৭০ সালে আসন সংখ্যা ৪২০ জনে উন্নীত হয়। এসময় স্থাপত্য ও পরিকল্পনা অনুষদে ফিজিক্যাল প্ল্যানিং নামে একটি নতুন বিভাগ চালু হয়। এটিই পরবর্তীতে নগর ও অঞ্চল পরিকল্পনা বিভাগে পরিণত হয়েছে।
+"/>
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Bangladesh University of Engineering and Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buet1" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buet2" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buet3" />
+        
+          
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buet4" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buet5" />
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:www.buet.ac.bd.
+        http://en.wikipedia.org/wiki/বাংলাদেশ_প্রকৌশল_বিশ্ববিদ্যালয়" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

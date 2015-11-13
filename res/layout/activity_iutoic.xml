@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/index"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_purple"
+                android:text="Islamic University of Technology logo" />
+   
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iutlogo" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="About Islamic University of Technology" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="ইসলামিক ইউনিভার্সিটি অফ টেকনোলজি (Islamic University of Technology) বাংলাদেশের গাজীপুর জেলায় অবস্থিত একটি আন্তর্জাতিক প্রকৌশল বিশ্ববিদ্যালয়। এটি মূলত একটি শিক্ষা ও গবেষণা প্রতিষ্ঠান হিসেবে প্রতিষ্ঠা লাভ করেছিল এবং বর্তমানে বাংলাদেশের একমাত্র আন্তর্জাতিক বিশ্ববিদ্যালয় হিসেবে স্বীকৃত হয়েছে। বিশ্ববিদ্যালয়ের মালিকানা ইসলামী সম্মেলন সংস্থা তথা ওআইসি'র হাতে এবং এর লক্ষ্য ওআইসিভুক্ত সকল রাষ্ট্রের ছাত্রদের জন্য পড়াশোনার সুব্যবস্থা করে দেয়া এবং প্রযুক্তি ও প্রকৌশল শিক্ষার ক্ষেত্রে মুসলমানদের এগিয়ে নিয়ে আসা।আইইউটি ঢাকা থেকে ৩০ কিঃমিঃ দক্ষিণে, গাজিপুরের বোর্ড বাজারে অবস্থিত। শীতকালে এখানকার তাপমাত্রা সর্বনিম্ন ১০ ডিগ্রি সেঃ থাকে এবং গ্রীষ্মকালে সর্বোচ্চ ৩২ ডিগ্রি সেঃ পর্যন্ত হয়ে থাকে।ইসলামিক ইউনিভার্সিটি অব টেকনোলোজি অর্গানাইজেশন অব ইসলামিক কনফারেন্স বা OIC'র সরাসরি তত্ত্বাবধানে পরিচালিত একটি প্রকৌশল বিশ্ববিদ্যালয় । OIC'র ৫৭ টি দেশের ছাত্ররা এখানে পড়তে আসে । ১৯৭৮ সালে সেনেগালের ডাকারে অনুষ্ঠিত মুসলিম দেশগুলোর পররাষ্ট্রমন্ত্রীদের নবম বৈঠকে মুসলিম রাষ্ট্রগুলোর প্রকৌশল ও ভোকেশনাল প্রশিক্ষণ ও গবেষণার কেন্দ্র হিসাবে বাংলাদেশের গাজীপুরে এটি প্রতিষ্ঠার সিদ্ধান্ত নেয়া হয় । বাংলাদেশ সরকারের প্রদান করা ৩০ একর জমিতে ১৯৮১ সালের ২৭ এ মার্চ বিশ্ববিদ্যালয়টির ভিত্তিপ্রস্তর স্হাপিত হয় । সেসময় এটির নামকরণ করা হয় ICTVTR । ১৯৯৪ সালে মরক্কোর রাজধানী ক্যাসাব্লাঙ্কায় মুসলিম দেশগুলোর পররাষ্ট্রমন্ত্রীদের তেইশতম বৈঠকে এটির নাম ইসলামিক ইনস্টিটিউট অব টেকনোলোজি হিসাবে পরিবর্তন করা হয় । পরবর্তীতে ২০০১ সালের ২৫-২৭ জুন মালিতে অনুষ্ঠিত মুসলিম দেশগুলোর পররাষ্ট্রমন্ত্রীদের আঠাশতম বৈঠকে এটির নাম পুনরায় পরিবর্তন করে বর্তমানের ইসলামিক ইনিভার্সিটি অব টেকনোলোজিতে রূপান্তর করা হয় ।বাংলাদেশ সরকারের প্রদান করা ৩০ একর জমিতে ১৯৮১ সালের ২৭ এ মার্চ বিশ্ববিদ্যালয়টির ভিত্তিপ্রস্তর স্হাপিত হয় ।
+        "/>
+    
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Picture's Of Islamic University of Technology" />
+     
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iut8" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iut9" />
+     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iut10" />
+        
+          
+    
+      
+
+                 <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="আরও বিস্তারিত জানতে ভিজিট করুনঃ:http://www.iutoic-dhaka.edu.
+        http://en.wikipedia.org/wiki/ইসলামিক_ইউনিভার্সিটি_অফ_টেকনোলজি" />
+     
+ </LinearLayout>
+    </ScrollView>
+</LinearLayout>

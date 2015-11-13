@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.all_university_info"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.all_university_info.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.GovtActivity"
+            android:label="@string/title_activity_govt" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.PublicActivity"
+            android:label="@string/title_activity_public" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Public_Activity"
+            android:label="@string/title_activity_public_" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Govt_all_Activity"
+            android:label="@string/title_activity_govt_all_" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.All_uviersityActivity"
+            android:label="@string/title_activity_all_uviersity" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.TechonolgActivity"
+            android:label="@string/title_activity_techonolg" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.AgriActivity"
+            android:label="@string/title_activity_agri" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.S_TechologActivity"
+            android:label="@string/title_activity_s__techolog" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.NonGovtActivity"
+            android:label="@string/title_activity_non_govt" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.OthersVarsityActivity"
+            android:label="@string/title_activity_others_varsity" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.International_Varsity"
+            android:label="@string/title_activity_international__varsity" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.National_Varsity"
+            android:label="@string/title_activity_national__varsity" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.About_MeActivity"
+            android:label="@string/title_activity_about__me" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Dhaka_University"
+            android:label="@string/title_activity_dhaka__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Rajshahi_University"
+            android:label="@string/title_activity_rajshahi__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Chittagong_University"
+            android:label="@string/title_activity_chittagong__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Jahangirnagar_University"
+            android:label="@string/title_activity_jahangirnagar__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Barisal_University"
+            android:label="@string/title_activity_barisal__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Islamic_University"
+            android:label="@string/title_activity_islamic__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Khulna_University"
+            android:label="@string/title_activity_khulna__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Comilla_University"
+            android:label="@string/title_activity_comilla__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Khunla_Varsity"
+            android:label="@string/title_activity_khunla__varsity" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Jagannath_University"
+            android:label="@string/title_activity_jagannath__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Kabi_Nazrul_University"
+            android:label="@string/title_activity_kabi__nazrul__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Begum_Rokeya_University"
+            android:label="@string/title_activity_begum__rokeya__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.SUST"
+            android:label="@string/title_activity_sust" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.MBSTU"
+            android:label="@string/title_activity_mbstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.HSTU"
+            android:label="@string/title_activity_hstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.PSTU"
+            android:label="@string/title_activity_pstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.NSTU"
+            android:label="@string/title_activity_nstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.JSTU"
+            android:label="@string/title_activity_jstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Pabna_PSTU"
+            android:label="@string/title_activity_pabna__pstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BSMRSTU"
+            android:label="@string/title_activity_bsmrstu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BAU"
+            android:label="@string/title_activity_bau" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.SAU"
+            android:label="@string/title_activity_sau" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Sylhet_SAU"
+            android:label="@string/title_activity_sylhet__sau" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BSMRAU"
+            android:label="@string/title_activity_bsmrau" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.CVASU"
+            android:label="@string/title_activity_cvasu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BUET"
+            android:label="@string/title_activity_buet" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.RUET"
+            android:label="@string/title_activity_ruet" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.CUET"
+            android:label="@string/title_activity_cuet" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.KUET"
+            android:label="@string/title_activity_kuet" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.DUET"
+            android:label="@string/title_activity_duet" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BUTex"
+            android:label="@string/title_activity_butex" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.Bangladesh_Open_University"
+            android:label="@string/title_activity_bangladesh__open__university" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.BSMMMU"
+            android:label="@string/title_activity_bsmmmu" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.IUTOIC"
+            android:label="@string/title_activity_iutoic" >
+        </activity>
+        <activity
+            android:name="com.example.all_university_info.AUW"
+            android:label="@string/title_activity_auw" >
+        </activity>
+    </application>
+
+</manifest>
